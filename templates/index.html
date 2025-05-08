@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Recipes - Culinary Hub</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Culinary Hub</div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Search recipes..." />
+          <i class="fas fa-search"></i>
+        </div>
+      </nav>
+      <div class="hero">
+        <h1>Explore Culinary Delights</h1>
+        <p>
+          Discover a world of flavors with our handpicked recipes for every
+          occasion.
+        </p>
+        <a href="#recipes" class="btn">Browse Recipes</a>
+      </div>
+    </header>
+
+    <section id="categories" class="categories">
+      <h2>Recipe Categories</h2>
+      <div class="category-grid">
+        <div class="category-card" data-category="Breakfast">
+          <img
+            src="https://images.unsplash.com/photo-1525351484163-7529414344d8"
+            alt="Breakfast"
+          />
+          <h3>Breakfast</h3>
+        </div>
+        <div class="category-card" data-category="Lunch">
+          <img
+            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+            alt="Lunch"
+          />
+          <h3>Lunch</h3>
+        </div>
+        <div class="category-card" data-category="Dinner">
+          <img
+            src="https://images.pexels.com/photos/14930759/pexels-photo-14930759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Dinner"
+          />
+          <h3>Dinner</h3>
+        </div>
+        <div class="category-card" data-category="Desserts">
+          <img
+            src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="Desserts"
+          />
+          <h3>Desserts</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="recipes" class="recipes">
+      <h2>Featured Recipes</h2>
+      <div class="recipe-grid" id="recipeGrid"></div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Join Our Newsletter</h2>
+      <p>Get the latest recipes and cooking tips delivered to your inbox.</p>
+      <form id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Culinary Hub. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+
+    <script src="../static/script.js"></script>
+  </body>
+</html>

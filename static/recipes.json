@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Spaghetti Carbonara",
+        "description": "A creamy, authentic Italian pasta dish with eggs, cheese, and pancetta.",
+        "category": "Dinner",
+        "image": "https://images.pexels.com/photos/30373424/pexels-photo-30373424/free-photo-of-delicious-italian-pasta-dish-with-walnuts.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+        "id": 2,
+        "title": "Mediterranean Quinoa Salad",
+        "description": "A fresh, healthy salad with quinoa, feta, olives, and tomatoes.",
+        "category": "Lunch",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+    },
+    {
+        "id": 3,
+        "title": "Homemade Margherita Pizza",
+        "description": "A simple yet delicious pizza with fresh basil, mozzarella, and tomatoes.",
+        "category": "Dinner",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+    },
+    {
+        "id": 4,
+        "title": "Blueberry Pancakes",
+        "description": "Fluffy pancakes bursting with fresh blueberries, perfect for breakfast.",
+        "category": "Breakfast",
+        "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8"
+    },
+    {
+        "id": 5,
+        "title": "Chocolate Lava Cake",
+        "description": "A decadent dessert with a gooey chocolate center, served with ice cream.",
+        "category": "Desserts",
+        "image": "https://images.pexels.com/photos/5163948/pexels-photo-5163948.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+        "id": 6,
+        "title": "Grilled Chicken Wrap",
+        "description": "A healthy wrap with grilled chicken, avocado, and fresh veggies.",
+        "category": "Lunch",
+        "image": "https://images.unsplash.com/photo-1622973536968-3ead9e780960"
+    }
+]
